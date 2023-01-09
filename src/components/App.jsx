@@ -1,19 +1,22 @@
-import Profile from './Profile';
-import profile from './src/user.json';
+// import Profile from './Profile';
+// import user from './src/user.json';
 
-export default function App (props) {
-  return (
-    <Profile 
-      username={props.username}
-      tag={props.tag}
-      location={props.location}
-      avatar={props.avatar}
-      followers={props.stats.followers}
-      views={props.stats.views}
-      likes={props.stats.likes}
-    />
-  )
-}
+// export default function App () {
+//   return (
+//     <div>
+//       <Profile 
+//       username={ user.username}
+//       tag={ user.tag}
+//       location={ user.location}
+//       avatar={ user.avatar}
+//       followers={ user.stats.followers}
+//       views={ user.stats.views}
+//       likes={ user.stats.likes}
+//     />
+//     </div>
+    
+//   )
+// }
 
 // export const App = () => {
 //   return (
