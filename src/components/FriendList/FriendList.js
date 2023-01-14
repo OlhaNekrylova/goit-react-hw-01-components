@@ -17,11 +17,11 @@ const FriendList = ({friends}) => {
     );
 };
 
-FriendList.PropTypes = {
+FriendList.propTypes = {
     friends: PropTypes.arrayOf(
-        PropTypes.exact({
+        PropTypes.shape({
             id: PropTypes.number.isRequired,
-        }),
+        })
     ),
 };
 

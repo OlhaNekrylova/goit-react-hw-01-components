@@ -1,9 +1,9 @@
 .profile {
-    max-width: 512px;
+    width: 400px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px 15px 5px palevioletred;
+    box-shadow: 0px 8px 43px rgba(92, 89, 85, 0.6);
 }
 
 .description {
@@ -11,6 +11,9 @@
 }
 
 .avatar {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     background-color: palevioletred;
 }
@@ -23,12 +26,12 @@
 
 .tag {
     font-size: medium;
-    color: grey;
+    color: rgb(159, 168, 171);
 }
 
 .location {
     font-size: medium;
-    color: grey;
+    color: rgb(159, 168, 171);
 }
 
 .stats {
@@ -37,7 +40,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    background-color: grey;
+    background-color: rgb(159, 168, 171);
     height: 60px;
 }
 

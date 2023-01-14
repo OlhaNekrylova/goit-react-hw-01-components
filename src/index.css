@@ -1,9 +1,11 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize;  */
 
-@import './components/Profile/Profile.module.css';
-@import './components//Statistics/Statistics.module.css';
-@import './components/FriendList/FriendList.module.css';
-@import './components/TransactionHistory/TransactionHistory.module.css';
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -17,4 +19,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }

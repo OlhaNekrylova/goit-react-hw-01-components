@@ -14,7 +14,7 @@ const TransactionHistory = ({items}) => {
             </thead>
 
             <tbody>
-                {items.mam(({id, type, amount, currency}) => (
+                {items.map(({id, type, amount, currency}) => (
                     <tr
                         key={id} 
                     >
@@ -22,21 +22,20 @@ const TransactionHistory = ({items}) => {
                         <td>{amount}</td>
                         <td>{currency}</td>
                     </tr> 
-                )
-                )}
+                ))}
             </tbody>
         </table>
     );
 };
 
-TransactionHistory.PropTypes = {
+TransactionHistory.propTypes = {
     items: PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.string.isRequired,
             type: PropTypes.string.isRequired,
             amount: PropTypes.string.isRequired,
             currency: PropTypes.string.isRequired,
-        }),
+        })
     ),
 };
 
